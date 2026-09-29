@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Falk Hobrecht</title>
+
+  <style>
+
+    body {
+
+      margin: 0;
+
+      padding: 30px;
+
+      font-family: Arial, sans-serif;
+
+      background: #fff;
+
+      color: #111;
+
+    }
+
+    header {
+
+      display: flex;
+
+      justify-content: space-between;
+
+      margin-bottom: 100px;
+
+    }
+
+    h1 {
+
+      font-size: 18px;
+
+      font-weight: normal;
+
+      margin: 0;
+
+    }
+
+    .project {
+
+      margin-bottom: 120px;
+
+    }
+
+    .project img {
+
+      width: 100%;
+
+      max-width: 1200px;
+
+      display: block;
+
+      margin-bottom: 12px;
+
+    }
+
+    .project-title {
+
+      font-size: 16px;
+
+    }
+
+    .meta {
+
+      font-size: 13px;
+
+      color: #666;
+
+    }
+
+    footer {
+
+      margin-top: 150px;
+
+      padding-bottom: 30px;
+
+      font-size: 14px;
+
+    }
+
+    a {
+
+      color: inherit;
+
+      text-decoration: none;
+
+    }
+
+  </style>
+
+</head>
+
+<body>
+
+<header>
+
+  <h1>FALK HOBRECHT</h1>
+
+  <div>Filmmaker / Artist · Berlin</div>
+
+</header>
+
+<main>
+
+  <div class="project">
+
+    <div class="project-title">DAS LOCH BLEIBT</div>
+
+    <div class="meta">Work in progress · 2026</div>
+
+  </div>
+
+  <div class="project">
+
+    <div class="project-title">YOU ARE HERE</div>
+
+    <div class="meta">Documentary · France · 2024 · 15 min</div>
+
+  </div>
+
+  <div class="project">
+
+    <div class="project-title">TO THOSE BORN AFTER</div>
+
+    <div class="meta">Video · 2023 · 5 min</div>
+
+  </div>
+
+</main>
+
+<footer>
+
+  <a href="mailto:mail@falkhobrecht.cc">mail@falkhobrecht.cc</a>
+
+</footer>
+
+</body>
+
+</html>
