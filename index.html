@@ -21,9 +21,15 @@
       margin: 0;
       background: #ffffff;
       color: #111111;
-      font-family: Arial, Helvetica, sans-serif;
-      font-size: 14px;
-      line-height: 1.35;
+
+      font-family:
+        "Helvetica Neue",
+        Helvetica,
+        Arial,
+        sans-serif;
+
+      font-size: 13px;
+      line-height: 1.4;
     }
 
     a {
@@ -42,11 +48,14 @@
       display: flex;
       justify-content: space-between;
       align-items: flex-start;
+
       padding: 24px 30px 0 30px;
+
+      font-size: 12px;
     }
 
     .name {
-      font-size: 14px;
+      font-size: 12px;
     }
 
     nav {
@@ -55,14 +64,14 @@
     }
 
 
-    /* WORK */
+    /* WORK / INDEX */
 
     main {
       padding-top: 150px;
     }
 
     .project {
-      margin-bottom: 200px;
+      margin-bottom: 150px;
     }
 
     .image-wrap {
@@ -80,10 +89,13 @@
     .caption {
       width: 60%;
       max-width: 900px;
-      margin: 12px auto 0 auto;
+
+      margin: 10px auto 0 auto;
+
       display: flex;
       justify-content: space-between;
-      font-size: 13px;
+
+      font-size: 12px;
     }
 
     .year {
@@ -94,11 +106,16 @@
     /* INFO */
 
     #info {
-      padding: 80px 30px 40px 30px;
+      padding: 80px 30px 60px 30px;
       min-height: 60vh;
+
       display: grid;
       grid-template-columns: 1fr 2fr;
       gap: 40px;
+    }
+
+    .info-label {
+      font-size: 12px;
     }
 
     .info-text {
@@ -132,7 +149,7 @@
       }
 
       .project {
-        margin-bottom: 120px;
+        margin-bottom: 110px;
       }
 
       .image-wrap,
@@ -145,7 +162,7 @@
       }
 
       #info {
-        padding: 60px 16px 30px 16px;
+        padding: 60px 16px 40px 16px;
         grid-template-columns: 1fr;
       }
 
@@ -157,6 +174,9 @@
 
 <body>
 
+
+<!-- HEADER -->
+
 <header>
 
   <div class="name">
@@ -164,12 +184,15 @@
   </div>
 
   <nav>
-    <a href="#work">WORK</a>
+    <a href="#work">INDEX</a>
     <a href="#info">INFO</a>
   </nav>
 
 </header>
 
+
+
+<!-- INDEX -->
 
 <main id="work">
 
@@ -179,18 +202,28 @@
   <section class="project">
 
     <div class="image-wrap">
+
       <img
         src="hole.jp.png"
         alt="The Hole Is Here to Stay"
       >
+
     </div>
 
     <div class="caption">
-      <span>The Hole Is Here to Stay</span>
-      <span class="year">2026—</span>
+
+      <span>
+        The Hole Is Here to Stay
+      </span>
+
+      <span class="year">
+        2026—
+      </span>
+
     </div>
 
   </section>
+
 
 
   <!-- YOU ARE HERE -->
@@ -198,24 +231,36 @@
   <section class="project">
 
     <div class="image-wrap">
+
       <a
         href="https://vimeo.com/1147742581"
         target="_blank"
         rel="noopener"
       >
+
         <img
           src="you-are-here.jpg"
           alt="You Are Here"
         >
+
       </a>
+
     </div>
 
     <div class="caption">
-      <span>You Are Here</span>
-      <span class="year">2024</span>
+
+      <span>
+        You Are Here
+      </span>
+
+      <span class="year">
+        2024
+      </span>
+
     </div>
 
   </section>
+
 
 
   <!-- TO THOSE BORN AFTER -->
@@ -223,15 +268,24 @@
   <section class="project">
 
     <div class="image-wrap">
+
       <img
         src="to-those-born-after.jpg"
         alt="To Those Born After"
       >
+
     </div>
 
     <div class="caption">
-      <span>To Those Born After</span>
-      <span class="year">2023</span>
+
+      <span>
+        To Those Born After
+      </span>
+
+      <span class="year">
+        2023
+      </span>
+
     </div>
 
   </section>
@@ -240,11 +294,15 @@
 </main>
 
 
+
+<!-- INFO -->
+
 <section id="info">
 
-  <div>
+  <div class="info-label">
     INFO
   </div>
+
 
   <div class="info-text">
 
@@ -259,6 +317,7 @@
       He studied documentary film at the Hochschule für bildende
       Künste Hamburg and at the École des Beaux-Arts de Marseille.
     </p>
+
 
     <div class="contact">
 
