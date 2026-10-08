@@ -10,6 +10,7 @@
 
   <meta name="description" content="Here to Stay is a documentary film project by Falk Hobrecht exploring the landscapes surrounding Germany's Hambach open-pit mine.">
 
+  <link rel="canonical" href="https://falkhobrecht.cc/here-to-stay.html">
   <link rel="icon" type="image/svg+xml" href="favicon.svg">
 
   <style>
@@ -59,10 +60,10 @@
       gap: 24px;
     }
 
-    /* PROJECT PAGE */
+    /* MAIN */
 
     main {
-      padding-top: 135px;
+      padding-top: 90px;
     }
 
     .project-content {
@@ -71,11 +72,23 @@
       margin: 0 auto;
     }
 
-    .project-image {
+    /* VIDEO */
+
+    .video-container {
+      width: 100%;
+      aspect-ratio: 16 / 9;
+      background: #000;
+      overflow: hidden;
+    }
+
+    .video-container iframe {
       display: block;
       width: 100%;
-      height: auto;
+      height: 100%;
+      border: 0;
     }
+
+    /* CAPTION */
 
     .caption {
       display: flex;
@@ -92,7 +105,7 @@
 
     .project-text {
       max-width: 550px;
-      margin: 100px 0 100px 0;
+      margin: 100px 0 0 0;
       line-height: 1.5;
     }
 
@@ -107,18 +120,12 @@
       margin-bottom: 30px;
     }
 
-    /* WATCH LINK */
-
-    .watch-link {
-      display: inline-block;
-      margin-top: 20px;
-      font-size: 12px;
-    }
-
     /* FOOTER */
 
     footer {
-      padding: 120px 30px 60px 30px;
+      width: 70%;
+      max-width: 1000px;
+      margin: 120px auto 60px auto;
       font-size: 12px;
     }
 
@@ -135,7 +142,7 @@
       }
 
       main {
-        padding-top: 80px;
+        padding-top: 70px;
       }
 
       .project-content {
@@ -143,11 +150,12 @@
       }
 
       .project-text {
-        margin: 70px 0;
+        margin-top: 70px;
       }
 
       footer {
-        padding: 80px 16px 40px 16px;
+        width: calc(100% - 32px);
+        margin: 90px auto 40px auto;
       }
 
     }
@@ -180,11 +188,22 @@
 
     <div class="project-content">
 
-      <img
-        class="project-image"
-        src="hole.jp.png"
-        alt="Here to Stay"
-      >
+      <!-- VIMEO PLAYER -->
+
+      <div class="video-container">
+
+        <iframe
+          src="https://player.vimeo.com/video/1147742581"
+          title="Here to Stay — Teaser"
+          allow="autoplay; fullscreen; picture-in-picture"
+          allowfullscreen
+          loading="lazy"
+        ></iframe>
+
+      </div>
+
+
+      <!-- CAPTION -->
 
       <div class="caption">
         <span>Here to Stay</span>
@@ -212,15 +231,6 @@
           a landscape shaped by extraction, displacement,
           and the promise of a future beyond coal.
         </p>
-
-        <a
-          class="watch-link"
-          href="https://vimeo.com/1147742581"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          WATCH TEASER ↗
-        </a>
 
       </div>
 
